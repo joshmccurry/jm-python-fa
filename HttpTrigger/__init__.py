@@ -11,7 +11,7 @@ except ImportError:
 
 import confluent_kafka
 from jsonschema import validate
-import uuid, requests, typing
+import uuid, requests #, typing
 ##[END] TEST IMPORTS
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
