@@ -10,4 +10,4 @@ confluent-kafka
 uuid
 jsonschema
 requests
-typing
+#typing
