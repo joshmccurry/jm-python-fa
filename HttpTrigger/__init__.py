@@ -2,6 +2,17 @@ import logging
 
 import azure.functions as func
 
+##[START] TEST IMPORTS
+from yaml import load, dump
+try:
+    from yaml import CLoader as Loader, CDumper as Dumper
+except ImportError:
+    from yaml import Loader, Dumper
+
+import confluent_kafka
+from jsonschema import validate
+import uuid, requests, typing
+##[END] TEST IMPORTS
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')

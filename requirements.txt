@@ -3,3 +3,11 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
+#paho-mqtt
+protobuf
+pyyaml
+confluent-kafka
+uuid
+jsonschema
+requests
+typing
